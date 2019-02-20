@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+#desc {
+  height: 100vh;
+  width: 100%;
+  display: flex; }
+  #desc .hello {
+    width: 50%;
+    color: #fff;
+    background: #ae6d45;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  #desc .foto {
+    width: 50%;
+    background-image: url("assets/adip.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 100%; }
+
+#backtofront {
+  color: #503732; }
+  #backtofront .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 1000px;
+    height: 250px;
+    padding: 50px;
+    text-align: center; }
+
+#info {
+  background: #fafafa; }
+  #info .container {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center; }
+  #info .more {
+    width: 50%;
+    margin-top: 50px; }
+  #info .sosmed {
+    width: 50%;
+    text-align: center; }
+    #info .sosmed h2 {
+      margin-bottom: 50px; }
+    #info .sosmed .btn {
+      padding: 20px;
+      border: 3px solid #000;
+      border-radius: 25px; }
+  #info a {
+    text-decoration: none;
+    color: #000; }
+
+/*# sourceMappingURL=style.css.map */
